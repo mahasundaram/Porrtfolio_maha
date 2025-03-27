@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahalakshmi S - Interactive Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #f0f8ff, #e6e6fa);
+      color: #333;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    header {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+      animation: fadeInDown 1s ease-in-out;
+    }
+    header h1 {
+      font-size: 4rem;
+      margin-bottom: 15px;
+    }
+    header p {
+      font-size: 1.5rem;
+    }
+    .container {
+      width: 90%;
+      margin: 40px auto;
+      animation: fadeInUp 1s ease-in-out;
+    }
+    section {
+      margin-bottom: 60px;
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s;
+    }
+    section:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+    }
+    h2 {
+      color: #203a43;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      border-bottom: 3px solid #203a43;
+      padding-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+    }
+    li {
+      margin-bottom: 15px;
+      line-height: 1.8;
+    }
+    .contact a, a {
+      color: #1abc9c;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .contact a:hover, a:hover {
+      color: #16a085;
+    }
+    footer {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 1rem;
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+    @keyframes fadeInDown {
+      from {opacity: 0; transform: translateY(-20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    .intro-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .intro-section img {
+      border-radius: 50%;
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      border: 6px solid #203a43;
+      transition: transform 0.3s;
+    }
+    .intro-section img:hover {
+      transform: scale(1.1);
+    }
+    .intro-text {
+      flex: 1;
+      min-width: 300px;
+    }
+    .interests p span {
+      background: #203a43;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 25px;
+      transition: background 0.3s;
+    }
+    .interests p span:hover {
+      background: #2c5364;
+    }
+    .highlight {
+      color: #0f2027;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mahalakshmi S</h1>
+  <p>Full Stack Developer | Java Programmer | Web Developer</p>
+</header>
+
+<div class="container">
+
+  <section class="intro-section">
+    <img src="./my new pht.jpg" alt="Mahalakshmi Photo">
+    <div class="intro-text">
+      <h2>Hello! I'm Mahalakshmi</h2>
+      <p>
+        A passionate <span class="highlight">Computer Science Engineering</span> student, dedicated to building scalable web applications and efficient software solutions. Let's build something amazing together!
+      </p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <ul>
+      <li>📞 8754031794</li>
+      <li>📧 <a href="mailto:mahamah12033@gmail.com">mahamah12033@gmail.com</a></li>
+      <li>💼 <a href="https://www.linkedin.com/in/mahalakshmi-s-7a99b1257" target="_blank">LinkedIn</a></li>
+      <li>🐙 <a href="https://github.com/mahasundaram" target="_blank">GitHub</a></li>
+    </ul>
+  </section>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am a passionate and detail-oriented <span class="highlight">Computer Science Engineering</span> student, with a keen interest in <span class="highlight">Full Stack Development</span> and <span class="highlight">Java Programming</span>. I have a strong foundation in <span class="highlight">Object-Oriented Programming (OOP)</span> and a knack for solving complex problems.
+      </p>
+      <br/>
+      <p>
+        Actively contributing to platforms like <span class="highlight">SkillRack</span>, <span class="highlight">HackerRank</span>, <span class="highlight">LeetCode</span>, and <span class="highlight">GeeksforGeeks</span>, I continuously sharpen my problem-solving skills.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Java, C, Data Structures</li>
+        <li><strong>Web Development:</strong> HTML, CSS, JavaScript (Basics), React JS (Basics)</li>
+        <li><strong>Tools & Platforms:</strong> Git, GitHub, VS Code</li>
+        <li><strong>Soft Skills:</strong> Time Management, Organization, Communication, Leadership, Team Collaboration</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Eco-Spiritual Platform for Elderly Care Home Support and Coordination </strong>Designed and implemented an online platform to support and
+          coordinate care for elderly residents in care homes. The project focuses
+          on seamless communication between caregivers, residents, and their
+          families, reinforcing my responsibility in project management. <em></em></li>
+        <li><strong> Future Med-AI:</strong> Future Med-AI is an AI-powered e-commerce platform for healthcare products, offering personalized product recommendations, smart cart suggestions, and seamless checkout. It integrates AI for user behavior analysis, product insights, and real-time inventory prediction, ensuring a smarter and more efficient shopping experience.<em></em></li>
+        <li><strong>E-commerce App:</strong>The E-commerce application is a web-based platform that enables users to browse, search, and purchase products online. The app offers a seamless shopping experience with features like product listing, detailed product descriptions, user authentication, cart management, and order processing. It also includes an admin panel for managing products, categories, and customer orders</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>AWS Certified Cloud Practitioner (2025)</li>
+        <li>Internet of Things (IoT) - NPTEL (2024)</li>
+        <li>Cloud Computing - NPTEL (2024)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Internship Experience</h2>
+      <ul>
+        <li><strong> Frontend Developer Intern</strong> at  Pacific Creations (January 2024)
+          <ul><li> Developed responsive website layout snippets using HTML and CSS
+            forLearningRobo's web applications. Collaborated with designers to contribute to
+            enhancing the site design and improving the overall user experience.</li></ul>
+        </li>
+        <li><strong> Python with data science Intern</strong> at T4Tech Software Solution (July 2024)
+          <ul><li> Developed data-driven solutions using Python  for data analysis and visualization. Applied
+            machine learning models (Scikit-learn) to build predictive models and improve business
+            processes, indicating strong creative problem-solving skills.</li></ul>
+        </li>
+      </ul>
+    </section>
+
+    <section class="interests">
+      <h2>Interests</h2>
+      <p>
+        <span>Listening to Music</span>
+        <span>Traveling</span>
+        <span>Exploring New Technologies</span>
+        <span>Problem Solving Challenges</span>
+      </p>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Mahalakshmi. All Rights Reserved.
+  </footer>
+
+</body>
+</html> 
